@@ -1,0 +1,35 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+/* Add your custom styles here... */
+.footer-phone-number { font-size: 49px; font-weight: 900; font-family: Roboto; color: #81BD41 !important; }
+
+.fl-node-5c3e1caf49bf9 .fl-module-content .fl-icon i { text-align: center; background: #81bd41; border-radius: 0px !important; }
+
+.fl-node-5c3e1eab35387 .fl-module-content .fl-icon i { text-align: center; background: #81bd41; border-radius: 0px !important; }
+
+.form-text { color: #81BD41 !important; margin: 25px 5px 5px 0px; font-weight: bold; }
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url], textarea { background-color: rgba(235, 235, 235, 0.34) !important; border-radius: 0px !important; border: none; }
+
+button, input[type=button], input[type=submit] { background: #00B4C1; color: #fff; font-size: 18px; line-height: 20px; padding: 15px 50px; font-weight: normal; text-shadow: none; border: 1px solid #00B4C1; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 0px; margin-top: 20px; }
+
+button:hover, input[type=button]:hover, input[type=submit]:hover { background: #00B4C1; color: #fff; border: 1px solid #00B4C1; text-decoration: none; }
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url], textarea { display: block; width: 100%; padding: 6px 12px; font-size: 18px; line-height: 1.428571429; color: #fff; }
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url] { height: 44px; }
+
+.heading-content-box { text-align: center !important; }
+
+.heading-p { text-align: right; display: inline-block; }
+
+.main-heading { color: #80BC00; }
+
+.second-heading { font-weight: 900; }

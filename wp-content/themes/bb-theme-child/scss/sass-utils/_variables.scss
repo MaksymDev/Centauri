@@ -1,0 +1,67 @@
+
+//////////////////////////////
+//
+// COLORS
+//
+
+// PRIMARY PALETTE
+$cen-primary-color: #81BD41;
+
+// SECONDARY PALETTE
+$cen-secondary-color: #284553;
+
+// TERTIARY PALETTE
+$cen-tertiary-color: #00B4C1;
+
+// GRAY SCALE
+$cen-white: #fff;
+$cen-black: #000;
+
+$cen-gray-light: #afafaf;
+$cen-gray-medium: #8e8e8e;
+$cen-gray-dark: #434343;
+
+
+//////////////////////////////
+//
+// BREAKPOINTS
+//
+
+// @TODO: Refactor this into a mixin/function, so all that's needed are the variable inputs below.
+
+// VARIABLE PIXEL AMOUNTS - Used in interpolations below
+$cen-small-x-down: 639px;
+
+$cen-small-up: 640px;
+$cen-small-down: 767px; // Beaver Builder Setting
+
+$cen-medium-up: 768px; // Beaver Builder Setting
+$cen-medium-down: 991px; // Beaver Builder Setting
+
+$cen-large-up: 992px; // Beaver Builder Setting
+
+
+// INTERPOLATED MEDIA QUERIES
+// USAGE: "@media #{$var} { property:value }
+$cen-bp-x-sm-down: "screen and (max-width: #{$cen-small-x-down})";
+
+$cen-bp-sm-down: "screen and (max-width: #{$cen-small-down})";
+
+$cen-bp-sm: "screen and (min-width: #{$cen-small-up}) and (max-width: #{$cen-small-down})";
+
+$cen-bp-med: "screen and (min-width: #{$cen-medium-up}) and (max-width: #{$cen-medium-down})"; // Anything within Beaver Builder default "Medium" settings
+
+$cen-bp-med-down: "screen and (max-width: #{$cen-medium-down})"; // Anything below the medium breakpoint.
+
+$cen-bp-lg: "screen and (min-width: #{$cen-large-up})"; // Anything within Beaver Builder "Large" settings
+
+
+
+//////////////////////////////
+//
+// FONTS
+//
+
+
+
+
