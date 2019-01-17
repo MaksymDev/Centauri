@@ -51,3 +51,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], inpu
 input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=number], input[type=search], input[type=url] {
   height: 44px;
 }
+
+.form-custom{
+  height: 35px!important;
+}
